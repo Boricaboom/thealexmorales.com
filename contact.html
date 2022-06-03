@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" height="100%">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;300;400;500;700;800&display=swap" rel="stylesheet">
+	<link rel="icon" href="imgs/favicon.png">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Contact | Alex Morales</title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-KTQ8462T0W"></script>
+	<script>
+ 	 window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+ 	 gtag('js', new Date());
+	
+	  gtag('config', 'G-KTQ8462T0W');
+	</script>
+</head>
+<body>
+
+    <div class="skip"><a href="#contact">Skip to Main Content</a></div>
+
+	<div class="background"></div>
+
+	<header>
+		<h1>Alex Morales</h1>
+		<h2>Contact</h2>
+	</header>
+
+	<main>
+
+		<div id="showcontainer">
+			<img src="imgs/show8.webp" alt="Show photo solo" id="solo">
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href = "index.html">About Me</a></li>
+				<li><a href = "resume.html">Resume</a></li>
+				<li><a href = "gallery.html">Gallery</a></li>
+				<li class="current"><a href = "contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<div class="contact" id="contact">
+			<form   action="https://formspree.io/f/xnqwakyz"
+			method="POST">
+		  
+			  <label>Your Email
+				<input type="text" name="_replyto" placeholder="You@email.com">
+			  </label>
+
+			  <label for="fname">First Name</label>
+			  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+		  
+			  <label for="lname">Last Name</label>
+			  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+		  
+			  <label for="interest">Interest</label>
+			  <select id="interest" name="interest">
+				<option value="stage">Stage</option>
+				<option value="screen">Screen</option>
+				<option value="commercial">Commercial</option>
+				<option value="voiceover">Voiceover</option>
+				<option value="general">General Inquiry</option>
+			  </select>
+		  
+			  <label for="subject">Subject</label>
+			  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+		  
+			  <input type="submit" value="Submit">
+		  
+			</form>
+		  </div>
+
+		<div class="background"></div>
+
+		<div id=spacer>
+
+		</div>
+	</main>
+
+	<footer>
+		<p>Alex Morales &copy; 2021
+			<br>
+			thealexmorales.com
+		</p>
+	</footer>
+</body>
+</html>
