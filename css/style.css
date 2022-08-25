@@ -174,18 +174,18 @@ nav li{
 	width:140px;
 	border:1px solid black;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-	background-color: rgb(29, 55, 245);
+	background-color: rgb(112, 101, 227);
 	font-weight: 900;
 	margin: 10px 0px 10px 0px;
 }
 
 .current{
-	background-color: antiquewhite;
+	background-color: rgb(86, 75, 165);
 	font-weight: 500;
 }
 
-a:visited{color:#000000}
-a:link{color:#000000}
+a:visited{color:hwb(0 97% 0%)}
+a:link{color:hwb(0 96% 2%)}
 
 #textbox{
 	position: absolute;
@@ -661,7 +661,7 @@ footer p{
 		grid-column-start: 5;
 		grid-column-end: 9;
 		grid-row-start: 4;
-		grid-row-end: 6;
+		grid-row-end: 5;
 	}
 	
 	.gallery__item8 {
